@@ -34,6 +34,12 @@
 
 	</bean>
 
-	<bean class="com.Springcore.Student" name = "Student3"  p:id = "20" p:name="Awanish singh" p:address="siwan"  />
+	<bean class="com.Springcore.Student" name="Student3" p:id="20"
+		p:name="Awanish singh" p:address="siwan" />
+
+
+
+
 
 </beans>
+
