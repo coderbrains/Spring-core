@@ -12,7 +12,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("com/Springcore/beans.xml");
         
         Student student = (Student)context.getBean("Student1");
        
