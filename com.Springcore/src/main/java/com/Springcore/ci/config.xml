@@ -9,17 +9,26 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
-    
-    <bean class="com.Springcore.ci.Certificate" name="certificate">
 
-		<constructor-arg  name="certi" value="Android development"   />
-    
-    </bean>
+	<bean class="com.Springcore.ci.Certificate" name="certificate">
+
+		<constructor-arg name="certi"
+			value="Android development" />
+
+	</bean>
 
 	<bean class="com.Springcore.ci.Person" name="person">
 		<constructor-arg name="id" value="20" type="int" />
-		<constructor-arg name="name" value="Awanish" type="String" />
-		<constructor-arg ref = "certificate" />
+		<constructor-arg name="name" value="Awanish"
+			type="String" />
+		<constructor-arg ref="certificate" />
+
+	</bean>
+
+	<bean class="com.Springcore.ci.Addition" name="add">
+
+		<constructor-arg value="12" />
+		<constructor-arg value="32" />
 		
 	</bean>
 
