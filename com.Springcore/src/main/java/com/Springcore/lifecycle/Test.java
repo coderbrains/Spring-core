@@ -22,6 +22,12 @@ public class Test {
 		System.out.println(pepsi);
 		
 		
+		System.out.println("----------------------------------------");
+		
+		Bear b = (Bear)context.getBean("bear");
+		
+		System.out.println(b);
+		
 		
 		
 	}
