@@ -19,11 +19,18 @@
 		<constructor-arg value="2HBC" />
 		
 	</bean>
+	
+	<bean class="com.Springcore.Auto.wire.annotations.Address" name="address1">
+
+		<constructor-arg value="Gniot" />
+		<constructor-arg value="Plot no 7" />
+		
+	</bean>
 
 
 	<bean class="com.Springcore.Auto.wire.annotations.Employee" name="emp"  />
 
-	<bean   class="com.Springcore.Auto.wire.annotations.Employee" name= "emp2" />
+	
 
 
 </beans>

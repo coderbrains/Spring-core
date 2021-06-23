@@ -21,13 +21,13 @@ public class Test {
 		
 		
 		
-//		This is the by type example which is used for the autowiring and name of the variables can be the differe
-
-		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++");
-		
-		Employee e2 = (Employee)context.getBean("emp2");
-		
-		System.out.println(e2);
+////		This is the by type example which is used for the autowiring and name of the variables can be the differe
+//
+//		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++");
+//		
+//		Employee e2 = (Employee)context.getBean("emp2");
+//		
+//		System.out.println(e2);
 		
 		
 	}

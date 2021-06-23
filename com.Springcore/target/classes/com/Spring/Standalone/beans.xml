@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+	<util:list list-class="java.util.LikedList" 
+		id="company">
+		<value>Google</value>
+		<value>Microsoft</value>
+		<value>Goldman sachs</value>
+	</util:list>
+
+	<bean class="com.Spring.Standalone.Person" name="person">
+
+
+		<property name="id" value="20" />
+
+		<property name="name" value="Awanish" />
+
+		<property name="companies" ref="company"  />
+	
+
+		<property name="mobiles">
+
+			<set>
+
+				<value>98785487</value>
+				<value>784587</value>
+			</set>
+
+
+		</property>
+
+	</bean>
+
+
+</beans>
+
