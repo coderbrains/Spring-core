@@ -13,7 +13,14 @@ public class Test {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/Springcore/stereotype/stereotype.xml");
 	
 		Person person = context.getBean("ob",Person.class);
-		System.out.println(person);
+//		System.out.println(person);
+		
+		System.out.println(person.hashCode());
+		
+		Person person1 = context.getBean("ob",Person.class);
+		System.out.println(person1.hashCode());
+		
+		
 	}
 
 }
