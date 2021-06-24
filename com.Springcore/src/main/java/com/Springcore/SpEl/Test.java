@@ -13,7 +13,7 @@ public class Test {
 		Demo demo = context.getBean("demo", Demo.class);
 		
 		demo.setA(52);
-		demo.setName("Hello");
+		demo.setName("Hello moto");
 		
 		System.out.println(demo);
 	}
