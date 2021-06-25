@@ -13,7 +13,7 @@
     http://www.springframework.org/schema/util/spring-util.xsd">
 
 
-	<util:list list-class="java.util.LikedList" 
+	<util:list list-class="java.util.Arraylist" 
 		id="company">
 		<value>Google</value>
 		<value>Microsoft</value>
