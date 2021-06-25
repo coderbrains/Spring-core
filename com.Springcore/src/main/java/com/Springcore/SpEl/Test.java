@@ -7,7 +7,6 @@ public class Test {
 	
 	public static void main(String[] a) {
 		
-		
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/Springcore/SpEl/config.xml");
 		
 		Demo demo = context.getBean("demo", Demo.class);
